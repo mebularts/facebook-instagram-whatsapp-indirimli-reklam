@@ -6,6 +6,8 @@
 
 <h1 align="center">%50 İndirimli Meta Reklam Sistemi</h1>
 
+<h3 align="center">%50 İndirimli, Yarı Fiyatına Facebook, Instagram, WhatsApp Reklamları</h3>
+
 <p align="center">
   Facebook • Instagram • TikTok • Messenger Reklamlarında <strong>Yarı Yarıya Tasarruf</strong><br>
   <strong>Legal, Şeffaf, Optimizasyonlu</strong> reklam altyapısı.
