@@ -1,5 +1,7 @@
 <p align="center">
+  <a href="https://mebularts.github.io/facebook-instagram-whatsapp-indirimli-reklam/" target="_blank">
   <img src="https://www.dopigo.com/wp-content/uploads/2023/03/meta-ads-dijital-reklam-rehberi-1.jpg" alt="Meta Reklam" width="100%">
+  </a>a>
 </p>
 
 <h1 align="center">%50 İndirimli Meta Reklam Sistemi</h1>
