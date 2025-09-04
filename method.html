@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İadeli Reklam – Bütçen Cebinde | Karşılama</title>
+  <meta name="description" content="İadeli Reklam – Bütçen Cebinde: 40 dk canlı eğitim (30 dk eğitim + 10 dk S/Ç). Hesap türleri, BM kurulumu, reklam oluşturma, Pixel/CAPI ve resmî faturalandırma/itiraz süreçlerinin doğru yönetimi. Ücret: 1.950$." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0B1020; 
+      --bg2: #0E1328;
+      --text: #EAF0FF; 
+      --muted: #A9B4D0; 
+      --primary: #6C7CFF; 
+      --primary-2:#8A5BFF; 
+      --accent:#22C55E; 
+      --warning:#F59E0B; 
+      --danger:#EF4444; 
+      --card:#101633; 
+      --card-2:#0C122B;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 16px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:radial-gradient(1200px 900px at 80% 0%, rgba(108,124,255,.25), transparent 60%), radial-gradient(900px 800px at 0% 100%, rgba(138,91,255,.2), transparent 60%), var(--bg); color:var(--text); font:16px/1.6 "Inter",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell;}
+    a{color:var(--primary);text-decoration:none}
+    .container{max-width:1080px;margin:0 auto;padding:24px}
+    .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center;padding:28px 0 8px}
+    @media(max-width:980px){.hero{grid-template-columns:1fr;}}
+    .badge{display:inline-flex;gap:8px;align-items:center;background:linear-gradient(90deg,var(--primary),var(--primary-2));color:#fff;padding:8px 12px;border-radius:999px;font-weight:600;box-shadow:var(--shadow)}
+    .title{font-size:clamp(28px,5vw,48px);line-height:1.12;margin:12px 0 8px;font-weight:800;letter-spacing:-.01em}
+    .subtitle{color:var(--muted);font-size:1.05rem;margin-bottom:18px}
+    .price{display:flex;gap:12px;align-items:center;margin:18px 0}
+    .price .tag{background:linear-gradient(180deg,#1d244d,#12183a);border:1px solid rgba(255,255,255,.08);padding:10px 14px;border-radius:12px;box-shadow:var(--shadow);}
+    .price .num{font-size:clamp(28px,4.2vw,40px);font-weight:800;color:#fff}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0 6px}
+    .btn{appearance:none;border:0;cursor:pointer;border-radius:12px;font-weight:700;padding:14px 18px;box-shadow:var(--shadow);transition:.2s ease background,.2s ease transform}
+    .btn:hover{transform:translateY(-1px)}
+    .btn-primary{background:linear-gradient(90deg,var(--primary),var(--primary-2));color:#fff}
+    .btn-outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.18)}
+    .meta{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:.95rem;margin-top:8px}
+    .meta .chip{background:rgba(255,255,255,.06);padding:8px 10px;border-radius:12px;border:1px solid rgba(255,255,255,.08)}
+
+    .card{background:linear-gradient(180deg,var(--card),var(--card-2));border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    @media(max-width:880px){.grid-3{grid-template-columns:1fr}}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    @media(max-width:880px){.grid-2{grid-template-columns:1fr}}
+    .section{padding:26px 0}
+    .section h2{font-size:clamp(22px,3.4vw,32px);margin:0 0 12px;font-weight:800}
+    .section p.lead{color:var(--muted);margin:0 0 18px}
+
+    .feature{padding:18px}
+    .feature h3{margin:8px 0;font-size:1.05rem}
+    .feature p{color:var(--muted);margin:6px 0}
+
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    @media(max-width:880px){.stats{grid-template-columns:repeat(2,1fr)}}
+    .stat{padding:16px;text-align:center;border-radius:14px;background:linear-gradient(180deg,#111739,#0D1430);border:1px solid rgba(255,255,255,.08)}
+    .stat .num{font-weight:800;font-size:28px}
+    .stat .lbl{color:var(--muted);font-size:.92rem}
+
+    .timeline{position:relative;padding-left:24px}
+    .timeline::before{content:"";position:absolute;left:10px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--primary),transparent);opacity:.6}
+    .tl{position:relative;padding:12px 12px 12px 8px;margin:8px 0;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:12px}
+    .tl::before{content:"";position:absolute;left:-16px;top:16px;width:10px;height:10px;border-radius:50%;background:linear-gradient(180deg,var(--primary),var(--primary-2));box-shadow:0 0 0 4px rgba(108,124,255,.25)}
+
+    .pill{display:inline-flex;align-items:center;gap:8px;background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.2);color:#CFF6D8;padding:8px 10px;border-radius:999px;font-weight:600}
+
+    .chart{padding:18px}
+    .chart svg{width:100%;height:180px}
+    .bar{fill:url(#g1)}
+    .bar2{fill:url(#g2)}
+
+    .faq{border-top:1px solid rgba(255,255,255,.08)}
+    details{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 14px;margin:10px 0}
+    details[open]{background:rgba(255,255,255,.06)}
+    summary{cursor:pointer;font-weight:700}
+    summary::-webkit-details-marker{display:none}
+
+    .note{font-size:.92rem;color:var(--muted)}
+    .sticky-cta{position:sticky;bottom:10px;z-index:50;display:flex;justify-content:center}
+    .sticky-cta .wrap{backdrop-filter:blur(8px);background:rgba(11,16,32,.6);border:1px solid rgba(255,255,255,.08);padding:10px 12px;border-radius:16px;box-shadow:var(--shadow);display:flex;gap:10px;flex-wrap:wrap}
+
+    .footer{color:var(--muted);text-align:center;padding:26px 0 12px}
+    .kicker{font-weight:700;color:#cbd5ff}
+    code.badge{background:#0B1538;border:1px solid rgba(255,255,255,.1)}
+  </style>
+</head>
+<body>
+  <header class="container hero">
+    <div>
+      <span class="badge">İadeli Reklam — Bütçen Cebinde</span>
+      <h1 class="title">Anlık canlı eğitimle reklam bütçeni <span class="kicker">daha verimli</span> kullan!</h1>
+      <p class="subtitle">Toplam <strong>40 dk</strong> — <strong>30 dk eğitim</strong> + <strong>10 dk soru–cevap</strong>. Hesap türleri & tedarik, Business Manager kurulumu, reklam akışı, Pixel/CAPI ve resmî süreçlerin doğru yönetimi.</p>
+      <div class="price">
+        <div class="tag"><span class="num">1.950 $</span></div>
+        <span class="pill">Canlı • Uygulamalı</span>
+        <span class="chip meta">Güncelleme bildirimleri: Anında</span>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#baslayalim">Hemen Başlayalım</a>
+        <a class="btn btn-outline" href="#icerik">İçeriği Gör</a>
+        <a class="btn btn-outline" href="#odeme">Ödeme & İade Bilgisi</a>
+      </div>
+      <div class="meta">
+        <span class="chip">Süre: 40 dk</span>
+        <span class="chip">Seviye: Başlangıç–Orta</span>
+        <span class="chip">Platform: Uzaktan Canlı</span>
+      </div>
+    </div>
+    <div class="card chart">
+      <!-- Mini bar chart (Before/After) -->
+      <svg viewBox="0 0 560 220" preserveAspectRatio="xMidYMid meet" aria-label="Öncesi/Sonrası görseli">
+        <defs>
+          <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#EF4444"/>
+            <stop offset="100%" stop-color="#7F1D1D"/>
+          </linearGradient>
+          <linearGradient id="g2" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#22C55E"/>
+            <stop offset="100%" stop-color="#065F46"/>
+          </linearGradient>
+        </defs>
+        <g>
+          <text x="30" y="28" fill="#A9B4D0" font-size="16" font-family="Inter">Öncesi</text>
+          <rect class="bar" x="30" y="70" width="120" height="120" rx="10"></rect>
+          <text x="30" y="210" fill="#A9B4D0" font-size="14">Yüksek Maliyet</text>
+        </g>
+        <g>
+          <text x="260" y="28" fill="#A9B4D0" font-size="16" font-family="Inter">Sonrası</text>
+          <rect class="bar2" x="260" y="110" width="120" height="80" rx="10"></rect>
+          <text x="260" y="210" fill="#A9B4D0" font-size="14">Daha Verimli</text>
+        </g>
+        <g>
+          <text x="430" y="28" fill="#A9B4D0" font-size="16">40 dk</text>
+          <circle cx="450" cy="120" r="50" fill="#111739" stroke="#6C7CFF" stroke-width="4"/>
+          <text x="420" y="125" fill="#EAF0FF" font-size="28" font-weight="800">30+10</text>
+        </g>
+      </svg>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="stats">
+        <div class="stat"><div class="num" data-k="40">40 dk</div><div class="lbl">Canlı oturum</div></div>
+        <div class="stat"><div class="num">1.950 $</div><div class="lbl">Tek seans</div></div>
+        <div class="stat"><div class="num">30 + 10</div><div class="lbl">Eğitim + S/Ç</div></div>
+        <div class="stat"><div class="num">✔︎</div><div class="lbl">Güncellemeler anında</div></div>
+      </div>
+    </section>
+
+    <section id="icerik" class="section">
+      <h2>Program İçeriği</h2>
+      <p class="lead">Pratik, ölçülebilir ve kurallara uyumlu bir çerçeve: hesap yapısından reklam akışına, Pixel/CAPI eşlemesinden resmî süreçlere kadar.</p>
+      <div class="grid-3">
+        <div class="card feature">
+          <h3>Hesap Türleri & Güvenli Tedarik</h3>
+          <p>Hangi hesap tiplerinin hangi kullanım senaryolarına uygun olduğu ve güvenli tedarik prensipleri.</p>
+        </div>
+        <div class="card feature">
+          <h3>Business Manager Kurulumu</h3>
+          <p>BM oluşturma, yetkiler/roller, ödeme ayarları ve erişim güvenliği.</p>
+        </div>
+        <div class="card feature">
+          <h3>Kampanya → Reklam Seti → Reklam</h3>
+          <p>Satın alma/lead hedefli yapı, Reels/UGC kreatif çerçeveleri, hızlı test matrisi.</p>
+        </div>
+        <div class="card feature">
+          <h3>Pixel & CAPI</h3>
+          <p>Events Manager kontrolleri, olay eşlemesi ve doğrulama adımları.</p>
+        </div>
+        <div class="card feature">
+          <h3>Faturalandırma & İtiraz</h3>
+          <p>Platform kurallarına uygun şekilde resmî süreçlerin <em>doğru ve şeffaf</em> yönetimi.</p>
+        </div>
+        <div class="card feature">
+          <h3>Raporlama & Ölçekleme</h3>
+          <p>CPM/CPC/CPL takibi, kazananı belirleme ve %20–30 kademeli ölçek protokolü.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-2">
+      <div class="card" style="padding:18px">
+        <h2>Oturum Akışı (40 dk)</h2>
+        <div class="timeline">
+          <div class="tl"><strong>00–05</strong> • Hedefler & mevcut yapı analizi</div>
+          <div class="tl"><strong>05–18</strong> • Hesap türleri, BM kurulumu, güvenli erişim</div>
+          <div class="tl"><strong>18–28</strong> • Kampanya–Reklam seti–Reklam, kreatif çerçeveler</div>
+          <div class="tl"><strong>28–35</strong> • Pixel & CAPI doğrulama, kontrol listesi</div>
+          <div class="tl"><strong>35–40</strong> • Soru–cevap ve sonraki adımlar</div>
+        </div>
+      </div>
+      <div class="card" id="odeme" style="padding:18px">
+        <h2>Ödeme & İade Bilgisi (Şeffaflık)</h2>
+        <p class="lead">Öğretilen adımlar <strong>Meta politikaları</strong> ve <strong>bankanızın resmî süreçleri</strong> kapsamında uygulanır.</p>
+        <ul>
+          <li>Uygun işlemlerde iade, <strong>bankanız/kartınız</strong> üzerinden hesabınıza yansır.</li>
+          <li>Pratikte çoğu senaryoda <strong>1–3 iş günü</strong> içinde görünür; hafta sonuna denk gelirse ilk iş günü toplu yansıyabilir.</li>
+          <li>İadelerin muhasebeleşmesi platform ve bankanın süreçlerine bağlıdır. Oturumda süreci <strong>doğru ve şeffaf</strong> biçimde yönetmeyi birlikte uygularız.</li>
+        </ul>
+        <p class="note">Eğitim, kuralları ihlal eden yöntemler içermez; amaç resmî süreçlerin bilinçli yönetilmesidir.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Kimler İçin Uygun?</h2>
+      <div class="grid-3">
+        <div class="card feature"><h3>E‑Ticaret & Pazar Yeri</h3><p>Satış odaklı hesaplar için verimlilik çerçevesi.</p></div>
+        <div class="card feature"><h3>Ajans & Freelancer</h3><p>Müşteri başına kârlılığı artırmaya yönelik uygulama planı.</p></div>
+        <div class="card feature"><h3>Yerel Hizmet İşletmeleri</h3><p>Randevu/lead odaklı kampanya yapısı ve raporlama.</p></div>
+      </div>
+    </section>
+
+    <section class="section grid-2" id="baslayalim">
+      <div class="card" style="padding:18px">
+        <h2>Anında Başlayalım</h2>
+        <p class="lead">Form yok, kontenjan yok. DM’de “<strong>hazırım</strong>” yazman yeterli.</p>
+        <ol>
+          <li>Canlı bağlantı linkini gönderiyorum.</li>
+          <li>Kısa ön kontrol listesini birlikte geçiyoruz.</li>
+          <li>40 dakikalık seans başlıyor — ekran paylaşımıyla uygulama.</li>
+        </ol>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://wa.me/12513160268" target="_blank" rel="noopener">WhatsApp’tan Yaz</a>
+          <a class="btn btn-outline" href="https://t.me/mebularts" target="_blank" rel="noopener">Telegram</a>
+        </div>
+        <p class="note">Soruların varsa mesajla iletebilirsin; ön değerlendirme için kısa bir sesli mesaj da bırakabilirsin.</p>
+      </div>
+      <div class="card" style="padding:18px">
+        <h2>Sık Sorulanlar</h2>
+        <div class="faq">
+          <details>
+            <summary>Ödeme nasıl yapılıyor?</summary>
+            <p>Standart yöntemlerle (banka/kart) ödeme alındıktan sonra oturumu anında başlatabiliriz.</p>
+          </details>
+          <details>
+            <summary>İadeler ne zaman görünür?</summary>
+            <p>Uygun işlemlerde iade, pratikte çoğu senaryoda <strong>1–3 iş günü</strong> içinde bankanızda görünür. Hafta sonuna denk gelirse ilk iş günü toplu yansıyabilir.</p>
+          </details>
+          <details>
+            <summary>Teknik önkoşul var mı?</summary>
+            <p>Business Manager ve reklam hesabı olması avantajdır; yoksa birlikte kurarız. Bilgisayar ve stabil internet yeterli.</p>
+          </details>
+          <details>
+            <summary>Kaynaklar?</summary>
+            <p>Kontrol listeleri, raporlama tabloları ve kısa kılavuz PDF’leri oturum sonunda paylaşılır. Güncellemeleri anında bildiririm.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <div class="sticky-cta">
+      <div class="wrap">
+        <span>Canlı eğitim — <strong>1.950 $</strong></span>
+        <a class="btn btn-primary" href="https://wa.me/12513160268" target="_blank" rel="noopener">WhatsApp’tan Yaz</a>
+        <a class="btn btn-outline" href="#icerik">İçeriği Gör</a>
+      </div>
+    </div>
+
+    <p class="note container" style="margin-top:18px">Şeffaflık: Bu sayfa bilgilendirme amaçlıdır. Eğitim, Meta platform kurallarına uyumlu süreçleri ve resmî faturalandırma/itiraz adımlarının <em>doğru yönetimini</em> öğretir. Her bankanın işleyişi farklı olabilir; görünürlük süreleri bankanıza bağlıdır.</p>
+
+    <footer class="footer container">© 2025 Mehmet Bulat — İadeli Reklam | <code class="badge">v1.0</code></footer>
+  </main>
+
+  <script>
+    // Basit counter animasyonu
+    document.querySelectorAll('.stat .num[data-k]').forEach(el=>{
+      const val = parseInt(el.dataset.k,10); let cur=0; const step=Math.ceil(val/24);
+      const t=setInterval(()=>{cur+=step; if(cur>=val){cur=val; clearInterval(t);} el.textContent=cur+" dk";},40);
+    });
+  </script>
+</body>
+</html>
